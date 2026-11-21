@@ -1,0 +1,182 @@
+/* --- GENERAL SECTION STYLES --- */
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+.section-container {
+  padding: 6rem 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+/* --- SERVICES CARDS --- */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
+
+.card {
+  background-color: #111;
+  padding: 2.5rem;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid #222;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  border-color: #ef4444;
+}
+
+.card-icon {
+  font-size: 3rem;
+  color: #ef4444;
+  margin-bottom: 1.5rem;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  color: #9ca3af;
+  line-height: 1.6;
+}
+
+/* --- SKILLS BARS --- */
+.skills-list {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.skill-item span {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 12px;
+  background-color: #222;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #ef4444;
+  border-radius: 10px;
+}
+
+/* --- TIMELINE (Education & Experience) --- */
+.timeline {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 1.5rem;
+  background-color: #111;
+  padding: 2rem;
+  border-radius: 15px;
+  border-left: 4px solid #ef4444;
+}
+
+.timeline-icon {
+  font-size: 2rem;
+  color: #ef4444;
+  flex-shrink: 0;
+}
+
+.timeline-content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.timeline-content h4 {
+  font-size: 1rem;
+  color: #ef4444;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.timeline-content p {
+  color: #9ca3af;
+  line-height: 1.6;
+}
+
+/* --- CONTACT FORM --- */
+.contact-form-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  background-color: #111;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ef4444;
+}
+
+.submit-btn {
+  padding: 1rem;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #dc2626;
+}
+
+/* --- FOOTER --- */
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #0a0a0a;
+  color: #6b7280;
+  border-top: 1px solid #222;
+}
