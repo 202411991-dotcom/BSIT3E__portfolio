@@ -40,9 +40,9 @@ export default function App() {
               My Name is Edward A. Locsin, I'm a 3rd Year BSIT Student from Gordon College, and this is my final project for submission IT Elective 2.
             </p>
             <div className="social-icons">
-              <a href="#" className="social-icon" aria-label="Facebook"><FaFacebookF size={20} /></a>
-              <a href="#" className="social-icon" aria-label="GitHub"><FaGithub size={20} /></a>
-              <a href="#" className="social-icon" aria-label="Instagram"><FaInstagram size={20} /></a>
+              <a href="https://www.facebook.com/real.shock.75" className="social-icon" aria-label="Facebook"><FaFacebookF size={20} /></a>
+              <a href="https://github.com/202411991-dotcom/BSIT3E__portfolio" className="social-icon" aria-label="GitHub"><FaGithub size={20} /></a>
+              <a href="https://www.instagram.com/0nly.edxard?obrf=NWFqeWdvanh3NHRz" className="social-icon" aria-label="Instagram"><FaInstagram size={20} /></a>
             </div>
             <button className="hire-btn" onClick={() => scrollToSection('contact')}>Hire me</button>
           </div>
