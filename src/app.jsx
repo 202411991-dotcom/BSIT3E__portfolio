@@ -3,7 +3,6 @@ import { FaFacebookF, FaGithub, FaInstagram, FaCode, FaGraduationCap, FaBriefcas
 import './index.css';
 
 export default function App() {
-  // Function to handle smooth scrolling to sections
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -13,7 +12,6 @@ export default function App() {
 
   return (
     <div>
-      {/* NAVBAR */}
       <nav className="navbar">
         <div className="logo">Edward</div>
         <ul className="nav-links">
@@ -26,7 +24,6 @@ export default function App() {
         </ul>
       </nav>
 
-      {/* HERO SECTION */}
       <main id="home" className="hero-section">
         <div className="hero-container">
           <div className="image-wrapper">
@@ -52,10 +49,14 @@ export default function App() {
         </div>
       </main>
 
-      {/* SERVICES SECTION */}
       <section id="services" className="section-container">
         <h2 className="section-title">My <span className="highlight">Services</span></h2>
         <div className="cards-grid">
+          <div className="card">
+            <FaPenNib className="card-icon" />
+            <h3>Script Writing</h3>
+            <p>Writing engaging scripts for short films, documentaries, and social media content.</p>
+          </div>
           <div className="card">
             <FaCode className="card-icon" />
             <h3>Web Development</h3>
@@ -64,7 +65,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* SKILLS SECTION */}
       <section id="skills" className="section-container">
         <h2 className="section-title">My <span className="highlight">Skills</span></h2>
         <div className="skills-list">
@@ -75,7 +75,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* EDUCATION SECTION */}
       <section id="education" className="section-container">
         <h2 className="section-title">My <span className="highlight">Education</span></h2>
         <div className="timeline">
@@ -91,14 +90,13 @@ export default function App() {
             <FaGraduationCap className="timeline-icon" />
             <div className="timeline-content">
               <h3>Senior High School</h3>
-              <h4>St. Joseph College Olongapo SHS Dept. | 2022 - 2024</h4>
-              <p>Graduated STEM strand.</p>
+              <h4>SJC Olongapo SHS Dept. | 2022 - 2024</h4>
+              <p>Graduated with honors in the STEM strand.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* EXPERIENCE SECTION */}
       <section id="experience" className="section-container">
         <h2 className="section-title">My <span className="highlight">Experience</span></h2>
         <div className="timeline">
@@ -113,7 +111,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* CONTACT SECTION */}
       <section id="contact" className="section-container">
         <h2 className="section-title">Contact <span className="highlight">Me</span></h2>
         <div className="contact-form-container">
@@ -126,9 +123,8 @@ export default function App() {
         </div>
       </section>
 
-      {/* FOOTER */}
       <footer className="footer">
-        <p>© 2026 Edward A. Locsin. All rights reserved.</p>
+        <p>© 2024 Edward A. Locsin. All rights reserved.</p>
       </footer>
     </div>
   );
