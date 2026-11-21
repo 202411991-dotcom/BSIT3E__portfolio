@@ -90,7 +90,7 @@ export default function App() {
             <FaGraduationCap className="timeline-icon" />
             <div className="timeline-content">
               <h3>Senior High School</h3>
-              <h4>SJC Olongapo SHS Dept. | 2022 - 2024</h4>
+              <h4>St.Joseph College Olongapo SHS Dept. | 2022 - 2024</h4>
               <p>Graduated with honors in the STEM strand.</p>
             </div>
           </div>
